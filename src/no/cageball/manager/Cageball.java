@@ -16,12 +16,4 @@ public class Cageball extends Activity {
         setContentView(R.layout.main);
     }
 
-    public void startMyEvents(View target) {
-        startActivity(new Intent(Cageball.this, MyEvents.class));
-    }
-
-    public void startCageBallEvents(View target) {
-        startActivity(new Intent(Cageball.this, CageballEvents.class));
-    }
-
 }
