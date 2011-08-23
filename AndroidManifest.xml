@@ -13,8 +13,6 @@
         </activity>
         <activity android:name="CageballEvents"></activity>
         <activity android:name="MyEvents"></activity>
-        <activity android:name="CageballEventDetail"></activity>
-        <activity android:name="CreateCageballEvent"></activity>
 
     </application>
 </manifest> 

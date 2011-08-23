@@ -7,8 +7,6 @@ import android.view.View;
 
 public class Cageball extends Activity {
 	
-	public static String EVENT_ID = "eventid";
-	
     /**
      * Called when the activity is first created.
      */
@@ -26,7 +24,4 @@ public class Cageball extends Activity {
         startActivity(new Intent(Cageball.this, CageballEvents.class));
     }
 
-    public void startCreateCageballEvent(View target) {
-        startActivity(new Intent(Cageball.this, CreateCageballEvent.class));
-    }
 }

@@ -32,10 +32,4 @@ public class CageballEvents extends ListActivity{
 
     }
 
-    @Override
-    public void onListItemClick(ListView l, View v, int position, long id){
-    	Intent intent = new Intent(CageballEvents.this, CageballEventDetail.class);
-    	intent.putExtra(Cageball.EVENT_ID, position);
-        startActivity(intent);
-    }
 }

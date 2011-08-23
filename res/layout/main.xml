@@ -22,12 +22,6 @@
         android:text="My Cageball Events"
         android:onClick="startMyEvents"
             />
-        <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Create Cageball Events"
-        android:onClick="startCreateCageballEvent"
-            />
 
 
 </LinearLayout>
