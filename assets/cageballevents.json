@@ -1,0 +1,29 @@
+{
+    "cageballevents": [
+        {
+            "date": "02.09 kl:1700",
+            "place": "Solsiden",
+            "eventid": 1
+        },
+        {
+            "date": "04.09 kl:1800",
+            "place": "Sluppen",
+            "eventid": 2
+        },
+        {
+            "date": "09.09 kl:1730",
+            "place": "Sentrum",
+            "eventid": 3
+        },
+        {
+            "date": "12.09 kl:1600",
+            "place": "Byåsen",
+            "eventid": 4
+        },
+        {
+            "date": "27.09 kl:1900",
+            "place": "Solsiden",
+            "eventid": 5
+        }
+    ]
+}

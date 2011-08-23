@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Dato" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:layout_marginLeft="24dp"
+		android:layout_marginTop="38dp" android:id="@+id/date_header"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Sted" android:layout_below="@+id/date_header"
+		android:layout_alignLeft="@+id/date_header" android:layout_marginTop="30dp"
+		android:id="@+id/place_header"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Status: " android:layout_below="@+id/place_header"
+		android:layout_alignLeft="@+id/place_header" android:layout_marginTop="23dp"
+		android:layout_alignRight="@+id/place_text" android:id="@+id/registered_text"></TextView>
+	<Button android:text="Meld meg på" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/registered_text"
+		android:layout_alignLeft="@+id/registered_text"
+		android:layout_marginTop="21dp" android:layout_alignRight="@+id/registered_text"
+		android:id="@+id/register"></Button>
+	<ListView android:layout_height="wrap_content" android:id="@+id/listView1"
+		android:layout_width="match_parent" android:layout_below="@+id/register"
+		android:layout_alignLeft="@+id/register" android:layout_marginTop="22dp"
+		android:layout_alignRight="@+id/register"></ListView>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="TextView" android:id="@+id/date_text"
+		android:layout_alignBaseline="@+id/date_header"
+		android:layout_alignBottom="@+id/date_header"
+		android:layout_alignParentRight="true" android:layout_marginRight="37dp"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="TextView" android:id="@+id/place_text"
+		android:layout_alignBaseline="@+id/place_header"
+		android:layout_alignBottom="@+id/place_header"
+		android:layout_alignParentRight="true" android:layout_marginRight="37dp"></TextView>
+
+</RelativeLayout>

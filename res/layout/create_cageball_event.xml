@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<DatePicker android:layout_height="wrap_content" android:id="@+id/datePicker1"
+		android:layout_width="wrap_content" android:layout_below="@+id/textView1"
+		android:layout_centerHorizontal="true"></DatePicker>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Klokkeslett" android:id="@+id/textView2"
+		android:layout_below="@+id/datePicker1"
+		android:layout_centerHorizontal="true" android:layout_marginTop="14dp"></TextView>
+	<TimePicker android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/timePicker1"
+		android:layout_below="@+id/textView2" android:layout_centerHorizontal="true"></TimePicker>
+	<EditText android:id="@+id/editText1" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/textView3"
+		android:layout_alignLeft="@+id/timePicker1" android:layout_alignRight="@+id/timePicker1">
+		<requestFocus></requestFocus>
+	</EditText>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Sted" android:id="@+id/textView3"
+		android:layout_alignParentTop="true" android:layout_alignRight="@+id/textView1"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Dato" android:id="@+id/textView1" android:layout_below="@+id/editText1"
+		android:layout_centerHorizontal="true"></TextView>
+	<Button android:text="Lag event" android:layout_height="wrap_content" android:onClick="createEventClick"
+		android:layout_width="wrap_content" android:id="@+id/button1"
+		android:layout_below="@+id/timePicker1" android:layout_alignLeft="@+id/timePicker1"
+		android:layout_marginTop="16dp"></Button>
+	<Button android:text="Avbryt" android:layout_height="wrap_content" android:onClick="cancelButtonClick"
+		android:layout_width="wrap_content" android:id="@+id/button2"
+		android:layout_alignBottom="@+id/button1" android:layout_alignRight="@+id/timePicker1"
+		android:layout_toRightOf="@+id/textView1"></Button>
+
+</RelativeLayout>
